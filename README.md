@@ -10,3 +10,5 @@ Features:
 
 ->If the current song ends next song in the playlist automatically plays.
 
+Checkout the github page link for this application at:
+https://jymahar.github.io/Redischool_project/
