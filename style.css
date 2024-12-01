@@ -2,6 +2,7 @@
 
 body{
     background-color: antiquewhite;
+    font-size: 10px;
 }
 
 *{
@@ -75,7 +76,7 @@ nav ul li{
 }
 
 .songItemContainer{
-    margin-top: 74px;
+    margin-top: 50px;
 }
 
 .songItem{

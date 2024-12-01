@@ -20,7 +20,7 @@ let songs = [
     {songName: "Bhula Dena - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/8.jpg", duration: "02:30"},
 ]
 
-songItems.forEach((element, i)=>{ 
+songItems.forEach((element, i)=>{
     element.getElementsByTagName("img")[0].src = songs[i].coverPath; 
     element.getElementsByClassName("songName")[0].innerText = songs[i].songName; 
     element.getElementsByClassName("timestamp")[0].innerText = songs[i].duration;
@@ -152,8 +152,3 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
     });
 
 
- document.getElementsByClassName("home").addEventListener('click', ()=>{
-
-
-
- });
